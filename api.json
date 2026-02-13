@@ -1,10 +1,8 @@
 {
-  "category": "CRYPTID",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/hugag",
     "maintainers": [
       {
@@ -18,131 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "hugag",
     "name": "Hugag",
     "aliases": [],
     "category": "CRYPTID",
-    "subcategory": "Fearsome Critter",
+    "subcategory": "Unknown",
     "tags": [
-      "fearsome-critter",
-      "lumberjack-folklore",
-      "moose-like",
-      "stiff-legged",
-      "humorous",
-      "tall-tale"
+      "folklore",
+      "mythology"
     ],
-    "status": "folklore",
+    "status": "documented",
     "description": {
-      "summary": "An enormous moose-like creature with stiff, jointless legs that cannot bend, forcing it to sleep leaning against trees; can be killed by sawing through the supporting tree.",
-      "full": "The Hugag is a fearsome critter resembling an enormous moose but with one critical flaw: its legs are completely stiff and jointless, unable to bend at all. Because it cannot lie down, the Hugag must sleep standing upright, leaning against a tree for support. This vulnerability makes the creature easy prey for clever lumberjacks, who simply saw through the supporting tree. When the tree falls, the Hugag topples over and cannot get back up. According to the tall tales, this is how lumberjacks deal with the otherwise formidable creature. The Hugag represents the fearsome critter tradition's love of absurd biological flaws that create equally absurd hunting methods."
+      "summary": "The Hugag is an enormous moose-like creature with a fatal design flaw: its legs are completely stiff and jointless.",
+      "full": "The Hugag is an enormous moose-like creature with a fatal design flaw: its legs are completely stiff and jointless. Unable to bend its legs at any joint, the Hugag cannot lie down to sleep. Instead, it must lean against large trees for support, dozing while standing upright. This vulnerability makes the otherwise formidable creature easy prey for clever lumberjacks. According to the tall tales, hunters simply find a sleeping Hugag, saw through the tree it's leaning against, and when the tree falls, the Hugag topples over. Unable to get back up with its rigid legs, the creature is helpless."
     },
     "etymology": {
-      "origin": "American lumberjack folklore, early 20th century",
-      "meaning": "Unknown; typical nonsense naming of fearsome critters",
-      "first_use": "circa 1910"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Fearsome Critter",
-      "subtype": "Ungulate-like",
-      "variant": "Stiff-legged"
+      "type": "Unknown",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
     "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "size": "Enormous, larger than normal moose",
-      "coloration": ["moose-like"],
-      "features": [
-        {
-          "feature": "Stiff legs",
-          "description": "Legs completely rigid without joints, cannot bend",
-          "frequency": "always"
-        },
-        {
-          "feature": "Moose-like appearance",
-          "description": "Resembles an oversized moose",
-          "frequency": "always"
-        },
-        {
-          "feature": "Upper lip overhang",
-          "description": "Extremely long upper lip in some accounts",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "Moose-like but enormous and with impossibly stiff, jointless legs"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Standing endurance",
-        "description": "Can remain standing indefinitely due to rigid legs",
-        "frequency": "constant",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "variable",
-      "disposition": "neutral but vulnerable",
-      "social_structure": "solitary",
-      "habitat_preference": ["forests with large trees"],
-      "diet": "Herbivorous (like moose)",
-      "patterns": [
-        "Must sleep leaning against trees",
-        "Cannot lie down due to stiff legs",
-        "Grazes while standing",
-        "Cannot get up if knocked over"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Northern forests with large trees suitable for leaning",
-      "continents": ["North America"],
-      "countries": ["United States", "Canada"],
-      "regions": ["Northern forests", "Lumber regions"]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "1910",
+        "date": "Unknown",
         "circa": true,
-        "source": "Lumberjack tall tale collections"
+        "source": "Traditional folklore"
       }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "American occupational folklore from lumber camps",
-      "folklore_connections": "Represents absurd biological flaw exploited through lumberjack expertise"
-    }
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
+    },
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": ["Lumberjack tall tales"],
-      "beliefs": "Killed by sawing support tree; represents how lumberjack skills defeat creatures"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Fearsome Creatures of the Lumberwoods by William T. Cox (1910)"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "sources": [
-    {
-      "id": "cox-1910",
-      "type": "book",
-      "title": "Fearsome Creatures of the Lumberwoods",
-      "authors": ["William T. Cox"],
-      "date": "1910"
-    }
-  ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
