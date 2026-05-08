@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/hugag",
     "maintainers": [
       {
@@ -16,72 +16,118 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "hugag",
     "name": "Hugag",
-    "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Hew-gag", "language": "English", "region": "Northern United States", "meaning": "Variant spelling from 1900 documentation" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Fearsome critter / lumberjack tall-tale creature",
+    "tags": [
+      "american-folklore",
+      "lumberjack",
+      "fearsome-critters",
+      "tall-tale",
+      "moose-like",
+      "north-america",
+      "minnesota",
+      "wisconsin"
+    ],
+    "status": "historical",
     "description": {
-      "summary": "The Hugag is an enormous moose-like creature with a fatal design flaw: its legs are completely stiff and jointless.",
-      "full": "The Hugag is an enormous moose-like creature with a fatal design flaw: its legs are completely stiff and jointless. Unable to bend its legs at any joint, the Hugag cannot lie down to sleep. Instead, it must lean against large trees for support, dozing while standing upright. This vulnerability makes the otherwise formidable creature easy prey for clever lumberjacks. According to the tall tales, hunters simply find a sleeping Hugag, saw through the tree it's leaning against, and when the tree falls, the Hugag topples over. Unable to get back up with its rigid legs, the creature is helpless."
+      "summary": "The Hugag is a large moose-like creature from American lumberjack tall-tale tradition, distinguished by jointless legs that prevent it from lying down, forcing it to sleep standing up while leaning against trees.",
+      "full": "The Hugag is a 'fearsome critter' from the oral tradition of North American logging camps, particularly associated with northern Minnesota, western Wisconsin, and the Canadian wilderness toward Hudson Bay. The creature resembles a moose in size but has several bizarre anatomical peculiarities: its legs are entirely jointless, preventing it from bending at knee or hip and making it impossible for the animal to lie down. Unable to rest normally, the hugag is compelled to sleep by leaning against large trees. This vulnerability is its undoing: lumberjacks in the tall tales simply locate a sleeping hugag, saw through the supporting tree, and when the tree falls the hugag topples with it and cannot rise again. William T. Cox documented the creature in his 1910 work Fearsome Creatures of the Lumberwoods with a physical description including a long prehensile upper lip that prevents grazing, a leathery and hairless head and neck, strangely corrugated downward-flopping ears, four-toed feet, a long bushy tail, and an overall 'unmistakably prehistoric appearance.' An earlier variant called 'Hew-gag' appeared in S. W. Brown's 1900 book. Henry Tryon's 1939 account added warts on the snout, bumps on the head, and pine needles instead of body hairs. Ancient parallels include Julius Caesar's account of jointless elk in his Gallic Wars and Pliny the Elder's description of the Achlis, a similar creature unable to lie down."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "American English lumberjack slang, first printed as 'Hew-gag' in S. W. Brown (1900); modernized to 'Hugag' in Cox (1910).",
+      "meaning": "The name's derivation is obscure; it may be playful coinage from logging camp vernacular.",
+      "first_use": "1900 (as 'Hew-gag'); 1910 (as 'Hugag' in Cox)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Fearsome critter",
+      "subtype": "Tall-tale megafauna",
+      "variant": "Northern US / Canadian border region"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "joint-snake", "name": "Joint Snake", "relationship": "similar", "description": "Another American folklore creature defined by an unusual joint-related ability" },
+      { "id": "jackalope", "name": "Jackalope", "relationship": "similar", "description": "American tall-tale cryptid from lumberjack and cowboy traditions" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Jointless legs", "description": "Legs are entirely stiff and without joints, preventing the creature from bending or lying down", "frequency": "always" },
+        { "feature": "Long prehensile upper lip", "description": "An elongated upper lip that prevents the creature from grazing on ground-level vegetation", "frequency": "always" },
+        { "feature": "Leathery hairless head and neck", "description": "The head and neck lack fur and are described as leathery in texture", "frequency": "always" },
+        { "feature": "Corrugated downward-flopping ears", "description": "Strangely corrugated ears that flop downward", "frequency": "always" },
+        { "feature": "Four-toed feet", "description": "Four toes on each foot", "frequency": "always" },
+        { "feature": "Long bushy tail", "description": "A long, bushy tail contrasting with the otherwise ungulate-like body", "frequency": "always" },
+        { "feature": "Shaggy coat", "description": "Body covered in a shaggy coat (per Cox 1910); Tryon (1939) substitutes pine needles for body hairs", "frequency": "always" }
+      ],
+      "morphology": "Moose-sized ungulate with radically altered anatomy: jointless rigid legs, elongated upper lip, and a leathery neck. The creature has an 'unmistakably prehistoric appearance' per Cox's description."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Tree-leaning sleep", "description": "Must lean against large trees to sleep due to inability to lie down; this is simultaneously its only rest strategy and its primary vulnerability", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["boreal forest", "northern pine forest", "wilderness near Hudson Bay"],
+      "diet": "Unable to graze due to its lip; diet unspecified in sources",
+      "patterns": [
+        "Sleeps upright by leaning against trees",
+        "Topples irreversibly when supporting tree is felled",
+        "Ranges through northern forests of Minnesota, Wisconsin, and Canada"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Northern Minnesota, western Wisconsin, and the Canadian wilderness toward Hudson Bay, according to lumberjack tall-tale tradition.",
+      "continents": ["North America"],
+      "countries": ["United States", "Canada"],
+      "regions": [
+        "Northern Minnesota",
+        "Western Wisconsin",
+        "Canadian wilderness (Hudson Bay region)"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1900-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "S. W. Brown (1900)"
+      },
+      "peak_activity_periods": [
+        { "period": "1900–1939", "description": "Era of major fearsome-critter documentation in print; Cox (1910) and Tryon (1939) are the principal sources" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "American lumberjack oral tradition of the late 19th and early 20th centuries. 'Fearsome critters' were tall-tale creatures invented and embellished in logging camp culture as entertainment, sometimes told to tease new workers.",
+      "earliest_accounts": "S. W. Brown, 1900; William T. Cox, Fearsome Creatures of the Lumberwoods, 1910.",
+      "folklore_connections": "The concept of a creature unable to lie down has ancient parallels: Julius Caesar described jointless elk in his Gallic Wars, and Pliny the Elder described the Achlis, a similarly inflexible northern creature."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1900-01-01", "event": "S. W. Brown publishes first documented reference to the 'Hew-gag' with round clawed feet", "significance": "Earliest printed source", "source": "S. W. Brown (1900)" },
+      { "date": "1910-01-01", "event": "William T. Cox publishes Fearsome Creatures of the Lumberwoods with a detailed hugag description including jointless legs, corrugated ears, and prehistoric appearance", "significance": "Primary defining description", "source": "Cox, W. T. (1910), Fearsome Creatures of the Lumberwoods" },
+      { "date": "1939-01-01", "event": "Henry Tryon's account adds warts on snout, bumps on head, and pine needles as body hair", "significance": "Later elaboration of physical description", "source": "Tryon, H. (1939), Fearsome Critters" }
+    ],
+    "modern_era": "The hugag is primarily of interest as a documented example of North American lumberjack tall-tale tradition. It appears in cryptozoological and folklore compilations as a 'fearsome critter' alongside creatures such as the Hidebehind, Hodag, and Wampus Cat."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +138,101 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "hugag-evidence-cox-1910",
+        "type": "historical text",
+        "name": "Fearsome Creatures of the Lumberwoods — William T. Cox (1910)",
+        "description": "Primary printed source for the hugag, including detailed physical description and geographic range.",
+        "status": "verified",
+        "analysis": "Standard reference in fearsome-critter scholarship; Cox's illustrations and descriptions are the canonical source for most subsequent accounts.",
+        "source": "Cox, W. T. (1910)"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Tall-tale invention",
+        "description": "The hugag is a deliberate fictional invention of lumberjack oral culture, created for entertainment and to tease credulous newcomers to logging camps. Its absurd anatomy (jointless legs, pine-needle fur) reflects the playful exaggeration characteristic of the fearsome-critters genre.",
+        "proponents": ["Folklore scholarship generally"],
+        "evidence_cited": ["No physical evidence of any kind", "Creature appears only in printed tall-tale collections", "Genre context of other documented fearsome critters"]
+      },
+      {
+        "name": "Ancient elk misidentification",
+        "description": "The idea of a jointless, tree-leaning large ungulate may derive ultimately from ancient misinterpretations of sleeping moose or elk behavior, reaching North American lumberjack tradition via European folklore cognates (Caesar's elk account, Pliny's Achlis).",
+        "proponents": ["Wikipedia / Hugag article"],
+        "evidence_cited": ["Julius Caesar, Gallic Wars (description of jointless elk)", "Pliny the Elder, Natural History (Achlis)"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "American lumberjack tall-tale tradition ('fearsome critters')",
+        "Oral storytelling in logging camps of Minnesota, Wisconsin, and Canada"
+      ],
+      "stories": [
+        "Standard hugag hunt: locate a sleeping hugag leaning against a tree, saw through the tree, and collect the helpless toppled creature",
+        "Ancient parallel: Julius Caesar's Gallic Wars account of jointless elk that sleep by leaning on trees"
+      ],
+      "beliefs": "The hugag was part of a broader ecosystem of deliberate tall-tale creatures used in logging camp culture. Stories were told as entertainment and as hazing for new workers unfamiliar with the wilderness."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Cox, W. T. (1910), Fearsome Creatures of the Lumberwoods",
+        "Tryon, H. (1939), Fearsome Critters"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "other": [
+        "Appears in cryptozoological reference works as a documented American fearsome critter"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "William T. Cox", "affiliation": "US Forest Service", "contribution": "Principal documenter of the hugag and other fearsome critters in Fearsome Creatures of the Lumberwoods (1910)", "period": "1910" },
+      { "name": "Henry Tryon", "affiliation": "Independent", "contribution": "Later elaboration of hugag physical description in Fearsome Critters (1939)", "period": "1939" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "The hugag is studied primarily within American folklore and cultural history scholarship as a documented example of the fearsome-critters genre."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "cox-1910",
+      "type": "book",
+      "title": "Fearsome Creatures of the Lumberwoods",
+      "authors": ["William T. Cox"],
+      "date": "1910",
+      "notes": "Primary source; includes hugag description and illustration"
+    },
+    {
+      "id": "tryon-1939",
+      "type": "book",
+      "title": "Fearsome Critters",
+      "authors": ["Henry Tryon"],
+      "date": "1939"
+    },
+    {
+      "id": "wikipedia-hugag",
+      "type": "website",
+      "title": "Hugag",
+      "url": "https://en.wikipedia.org/wiki/Hugag",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
